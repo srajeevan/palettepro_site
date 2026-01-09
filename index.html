@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palette Pro - Master Color like the Old Masters</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container"
+    style="padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+    <h2 style="font-size: 1.5rem; margin: 0; background: none; -webkit-text-fill-color: var(--color-text-primary);">
+      Palette Pro</h2>
+    <nav>
+      <a href="#features" style="margin-left: 1rem;">Features</a>
+      <a href="#pricing" style="margin-left: 1rem;">Pricing</a>
+      <a href="./faq.html" style="margin-left: 1rem;">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="container" style="padding: 4rem 1rem; text-align: center;">
+      <h1>Master Color like the Old Masters.</h1>
+      <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem;">The essential digital companion for
+        traditional painters. Analyze values, mix accurate oils, and see the world as a painter does.</p>
+      <div style="margin-bottom: 3rem;">
+        <button
+          style="background: var(--color-accent); color: white; border: none; padding: 1rem 2rem; border-radius: var(--radius-md); font-size: 1rem; font-weight: 600; cursor: pointer;">Download
+          on App Store</button>
+      </div>
+      <div
+        style="background: var(--color-surface); border-radius: var(--radius-lg); overflow: hidden; max-width: 800px; margin: 0 auto; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+        <!-- Hero Image: Artist Profile -->
+        <img src="./screenshots/img9.jpeg" alt="Palette Pro Interface - Artist Profile"
+          style="width: 100%; display: block;">
+      </div>
+    </section>
+
+    <section id="features" class="container" style="padding: 4rem 1rem;">
+      <h2 style="text-align: center; margin-bottom: 5rem;">Features Overview</h2>
+
+      <!-- Feature 1a: Color Picker -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>1. Virtual Color Picker 🎯</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Pinpoint
+            accuracy.</p>
+          <p>Select any color from your reference photo with our advanced picker.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Target Selection:</strong> Drag to pick specific hues.</li>
+            <li><strong>Instant Analysis:</strong> See RGB/HSB values instantly.</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img1.jpeg" alt="Virtual Color Picker">
+        </div>
+      </div>
+
+      <!-- Feature 1b: Realistic Mixing -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>2. Realistic Mixing Recipes 🎨</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Stop
+            guessing. Start mixing.</p>
+          <p>Our proprietary engine tells you exactly how to mix that color using real tubes of paint.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Real Pigments:</strong> Uses Cadmiums, Ochres, and Umbers.</li>
+            <li><strong>Precise Ratios:</strong> "4 parts White + 1 part Alizarin".</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img2.jpeg" alt="Realistic Mixing Recipes">
+        </div>
+      </div>
+
+      <!-- Feature 2: Squint Mode -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>3. Squint Mode 👁️</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Simulate
+            the artist's squint.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Detail Reduction:</strong> Remove distracting details to focus on "big masses."</li>
+            <li><strong>Adjustable Intensity:</strong> Control exactly how much detail you want to see.</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img5_1.jpeg" alt="Squint Mode Interface">
+        </div>
+      </div>
+
+      <!-- Feature 3a: Palette Generator -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>4. Harmonious Palettes 📸</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Capture the
+            essence of a scene.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Auto-Extraction:</strong> Generate a harmonious color palette from any photo.</li>
+            <li><strong>Save & Organize:</strong> Keep your favorite palettes in your library.</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img3.jpeg" alt="Palette Generator Interface">
+        </div>
+      </div>
+
+      <!-- Feature 3b: Palette Mixing -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>5. Palette Mixing Guide 🧪</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Mix your
+            entire palette.</p>
+          <p>Get mixing recipes for every single color in your generated palette.</p>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img4.jpeg" alt="Palette Mixing Interface">
+        </div>
+      </div>
+
+      <!-- Feature 4: Value Map -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>6. Value Map 🌗</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">See the
+            structure beneath the color.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Grayscale Mode:</strong> Instantly convert any reference photo to black & white.</li>
+            <li><strong>Temperature Map:</strong> Visualize warm vs. cool zones to nail color harmony.</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img7.jpeg" alt="Value Map Interface">
+        </div>
+      </div>
+
+      <!-- Feature 5: Library -->
+      <div class="feature-row">
+        <div class="feature-content">
+          <h3>7. Library & Cloud Sync ☁️</h3>
+          <p style="font-style: italic; color: var(--color-accent); font-size: 1.2rem; margin-bottom: 1rem;">Your
+            studio, everywhere.</p>
+          <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); margin-top: 1rem; line-height: 1.8;">
+            <li><strong>Save Palettes:</strong> Organize your inspirations and recipes in one place.</li>
+            <li><strong>Cloud Sync:</strong> (Pro) Access your data across all your devices seamlessly.</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="./screenshots/img10.jpeg" alt="Library Interface">
+        </div>
+      </div>
+
+      <!-- Additional Capabilities Grid -->
+      <div style="margin-top: 6rem; text-align: center;">
+        <h3 style="margin-bottom: 3rem; font-size: 2rem;">Additional Capabilities</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+
+          <div style="padding: 2rem; background: var(--color-surface); border-radius: var(--radius-md);">
+            <h4 style="color: white; margin-bottom: 1rem;">Offline Capable</h4>
+            <p style="margin: 0;">Mixing, Squint, and Value Map tools work completely offline. Perfect for plein air
+              painting in remote locations.</p>
+          </div>
+
+          <div style="padding: 2rem; background: var(--color-surface); border-radius: var(--radius-md);">
+            <h4 style="color: white; margin-bottom: 1rem;">Universal Pigments</h4>
+            <p style="margin: 0;">We use standard names strictly (e.g., "Burnt Sienna", "Ultramarine") so you can use
+              any professional brand.</p>
+          </div>
+
+          <div style="padding: 2rem; background: var(--color-surface); border-radius: var(--radius-md);">
+            <h4 style="color: white; margin-bottom: 1rem;">Export Options</h4>
+            <p style="margin: 0;">Share your generated palettes and recipes with students, friends, or social media.</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="pricing" class="container" style="padding: 4rem 1rem;">
+      <h2 style="text-align: center; margin-bottom: 3rem;">Pricing & Membership</h2>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+
+        <div
+          style="background: var(--color-surface); padding: 2rem; border-radius: var(--radius-md); border: 1px solid #333;">
+          <h3>Free Tier</h3>
+          <p>Perfect for hobbyists.</p>
+          <ul style="list-style: none; padding: 0;">
+            <li>✅ Standard Mixing</li>
+            <li>✅ Grayscale Value Map</li>
+            <li>✅ Basic Squint</li>
+            <li>✅ Save 3 Palettes</li>
+          </ul>
+        </div>
+
+        <div
+          style="background: var(--color-surface); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--color-accent); position: relative;">
+          <div
+            style="position: absolute; top: -10px; right: 20px; background: var(--color-accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">
+            POPULAR</div>
+          <h3>Palette Pro</h3>
+          <p>For serious painters.</p>
+          <ul style="list-style: none; padding: 0;">
+            <li>👑 Advanced Mixing</li>
+            <li>👑 Temperature Map</li>
+            <li>👑 Unlimited Squint</li>
+            <li>👑 Unlimited Palettes</li>
+            <li>👑 Cloud Sync</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer style="background: var(--color-surface); padding: 4rem 1rem; margin-top: 4rem;">
+    <div class="container" style="text-align: center; color: var(--color-text-secondary);">
+      <p>&copy; 2026 Palette Pro. All rights reserved.</p>
+      <div style="margin-top: 1rem;">
+        <a href="./privacy.html" style="margin: 0 0.5rem; text-decoration: underline;">Privacy Policy</a>
+        <a href="./terms.html" style="margin: 0 0.5rem; text-decoration: underline;">Terms of Service</a>
+        <a href="./faq.html" style="margin: 0 0.5rem; text-decoration: underline;">FAQ</a>
+        <a href="mailto:support@palettepro.app" style="margin: 0 0.5rem; text-decoration: underline;">Support</a>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
