@@ -10,6 +10,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    window.onload = function () {
+      // Check if there are Supabase params in the URL hash
+      if (window.location.hash && window.location.hash.includes('access_token')) {
+        // Construct the deep link
+        const appLink = "palettepro://auth/callback" + window.location.hash;
+
+        // Redirect the browser to open the app
+        window.location.href = appLink;
+
+        // Show a message
+        document.body.innerHTML = '<div style="height:100vh;display:flex;justify-content:center;align-items:center;font-family:Inter,sans-serif;"><h1>Opening Palette Pro...</h1></div>';
+      }
+    }
+  </script>
 </head>
 
 <body>
