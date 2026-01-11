@@ -15,7 +15,8 @@
       // Check if there are Supabase params in the URL hash
       if (window.location.hash && window.location.hash.includes('access_token')) {
         // Construct the deep link
-        const appLink = "palettepro://auth/callback" + window.location.hash;
+        // Changed from auth/callback to auth based on user feedback to target the Auth screen directly
+        const appLink = "palettepro://auth" + window.location.hash;
 
         // Redirect the browser to open the app
         window.location.href = appLink;
